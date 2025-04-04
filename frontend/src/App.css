@@ -1,0 +1,39 @@
+.app {
+  text-align: center;
+  padding: 2rem;
+  background: #fff8e1;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7c567;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  color: #5c3300;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.controls {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.controls select,
+.controls button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 2px solid #5c3300;
+  background: #f9d784;
+  color: #5c3300;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.timer {
+  font-size: 1.2rem;
+}
